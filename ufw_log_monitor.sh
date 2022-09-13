@@ -19,7 +19,7 @@ while read line; do
 	    mac="${line##*MAC=}"
 	    mac="${mac%% *}"
 	    macAdd="[ Source MAC: $(echo $mac | cut -d ':' -f7,8,9,10,11,12) ]"
-        echo "$macAdd - $ip - $port $proto"
+        echo "$macAdd - $ip -> $port $proto"
         ;;
     *"DST"*)
         ip="${line##*SRC=}"
@@ -31,7 +31,7 @@ while read line; do
     	mac="${line##*MAC=}"
 	    mac="${mac%% *}"
 	    macAdd="[Source MAC: $(echo $mac | cut -d ':' -f7,8,9,10,11,12)]"
-        echo "mDNS:$ip -> $dst"
+        echo "$macAdd - mDNS:$ip -> $dst"
         ;;    
     esac
 done < "$infile"
