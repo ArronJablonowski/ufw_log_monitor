@@ -12,4 +12,5 @@ Watch a running feed of UFW logs:
 watch -n 2 "./ufw_log_monitor.sh | tail -n 25"
 ```
 
+Example output: 
 ![alt text](https://github.com/ArronJablonowski/ufw_log_monitor/blob/main/LogMon.png?raw=true)
