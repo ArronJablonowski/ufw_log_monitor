@@ -12,5 +12,10 @@ Watch a running feed of UFW logs:
 watch -n 2 "./ufw_log_monitor.sh | tail -n 25"
 ```
 
-Example output: 
+Example use cases:
+* Watch your Chrome cast, etc. constantly scan your system. 
+* See when your system is being scanned and the local ☕ coffee shop.
+* Hours of fun at IT/Security conferences. 
+* Anytime you want to watch UFW logs.
+
 ![alt text](https://github.com/ArronJablonowski/ufw_log_monitor/blob/main/LogMon.png?raw=true)
