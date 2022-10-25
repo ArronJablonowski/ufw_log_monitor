@@ -1,8 +1,7 @@
 # ufw_log_monitor
 Uncomplicated Firewall log monitor parses UFW event logs for the Source MAC, Source IP, and Destination Port.    
 
-Usage: 
-
+## Usage
 Parse the last 25 entries in UFW log:
 ```
 ./ufw_log_monitor.sh | tail -n 25
