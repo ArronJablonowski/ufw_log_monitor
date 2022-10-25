@@ -14,7 +14,7 @@ watch -n 2 "./ufw_log_monitor.sh | tail -n 25"
 
 Example use cases:
 * See when your system is being scanned and the local ☕ coffee shop.
-* Watch your Chrome cast, etc. constantly scan your system. 
+* Watch your Chrome cast, etc. constantly scan your system. Pictured below. 
 * Hours of entertainment at IT/Security conferences. 
 * Anytime you want to watch UFW logs.
 
